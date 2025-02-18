@@ -1,4 +1,3 @@
-/* Global Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #121212;
@@ -18,7 +17,6 @@ body {
     position: relative;
   }
   
-  /* Container */
   .container {
     position: relative;
     z-index: 1;
@@ -46,13 +44,11 @@ body {
     transform: translate(-50%, -50%);
   }
   
-  /* Header */
   header {
     text-align: center;
     margin-bottom: 0;
   }
   
-  /* Form */
   form {
     display: flex;
     justify-content: center;
@@ -130,20 +126,17 @@ body {
     background-color: rgba(255, 255, 255, 0.4);
   }
   
-  /* Icons */
   .submit-icon {
     font-size: 1rem;
     margin-left: -5px;
   }
   
-  /* Error Message */
   .error {
     color: #ff5555;
     margin-top: 10px;
     text-align: center;
   }
   
-  /* Sponsor Section */
   #sponsorSection {
     background-color: transparent;
     border-radius: 0;
@@ -268,7 +261,6 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
   
-  /* YouTube Video Box */
   .youtube-video-box {
     border-radius: 30px;
     overflow: hidden;
@@ -276,7 +268,6 @@ body {
     aspect-ratio: 16 / 9;
   }
   
-  /* Responsive Styles */
   @media (max-width: 768px) {
     .container {
       border-radius: 0;
@@ -308,7 +299,6 @@ body {
     }
   }
   
-  /* History Window */
   .history-window {
     position: fixed;
     z-index: 2;
@@ -371,7 +361,6 @@ body {
     cursor: pointer;
   }
   
-/* History list items as flex containers with space-between alignment */
 .history-list li.history-item {
   display: flex;
   justify-content: space-between;  /* Pushes trashcan aside */
@@ -384,18 +373,15 @@ body {
   
 }
 
-/* Lighter background on hover */
 .history-list li.history-item:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* Container that clips the overflowing URL text */
 .history-text-container {
   flex: 1;
   overflow: hidden;
 }
 
-/* The inner URL text, which scrolls on hover */
 .history-text {
   white-space: nowrap;
   display: inline-block;
@@ -403,7 +389,6 @@ body {
 
 }
 
-/* Circular trashcan (delete) button styled separately */
 .delete-button {
   background: rgba(255, 255, 255, 0.0);
   border: none;
